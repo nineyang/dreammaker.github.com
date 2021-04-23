@@ -1,0 +1,233 @@
+<!-- 首页 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+	<head>
+	    <title></title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <link rel="stylesheet" type="text/css" href="../css/common.css">
+	    <link rel="stylesheet" type="text/css" href="../css/index.css">
+
+	</head>
+	<style>
+		body{
+			font-family: 'MICROSOFT YAHEI';
+		}
+		.index-head{
+			background: #fff;
+    		box-shadow: 0 0 3px #ddd;
+    		margin-bottom: 20px;
+		}
+		.head-logo{
+			display: inline-block;
+			width: 160px;
+			    vertical-align: middle;
+			    margin-right: 20px; 
+		}
+		.head-logo img{
+			width: 100%;
+		}
+		.index-head ul{
+			width: 600px;
+    		display: inline-block;
+    		vertical-align: middle;
+		}
+		.index-head ul li{
+			line-height: 80px;
+		    color: #ddd;
+		    float: left;
+		    position: relative;
+		    cursor: pointer;
+		}
+
+		.index-head ul li a{
+		    color: #666;
+		    background: #fff;
+		    display: block;
+		    padding: 0 25px;
+		    font-size: 14px;
+		}
+		.index-head ul li:hover a,
+		.index-head ul li.z-active a{
+			transition: background .2s linear;
+			background: #f81f34;
+			color: #fff;
+		}
+		.index-banner{
+
+		}
+		.index-banner img{
+			width: 100%;
+		}
+		.index-list {
+		    width: 100%;
+		    max-width: 1100px;
+		    margin: 20px auto 0;
+		    height: 350px;
+		}
+		.index-list .l-item {
+		    width: 32%;
+		    float: left;
+		    background: #fff;
+		    margin-right: 2%;
+		}
+		.index-list .l-item .box {
+		    padding-bottom: 30px;
+		    height: 100%;
+		    /* border-left: solid 1px #ddd; */
+		    color: #666;
+		    background: #efefef;
+		}
+		.index-list .l-item dt {
+		    margin-bottom: 30px;
+		    text-align: center;
+		}
+		.index-list .l-item dt a{
+    display: block;
+    height: 150px;
+    overflow: hidden;
+		}
+		.index-list .l-item dt img {
+		    width: 100%;
+		}
+		.index-list .l-item dd {
+		    padding: 0 35px;
+		}
+		.index-list .l-item .title {
+		    display: block;
+		    color: #333;
+		    height: 72px;
+		    line-height: 24px;
+		    font-size: 18px;
+		    overflow: hidden;
+		}
+		.index-list .l-item .tag-new {
+		    display: inline-block;
+		    width: 32px;
+		    height: 13px;
+		    margin-left: 7px;
+		    background: url(http://www.huacemedia.com/static/web/css/../img/tag-new.png) no-repeat;
+		}
+		.index-list .l-item .date {
+		    padding-bottom: 10px;
+		    line-height: 40px;
+		    color: #999;
+		    font-size: 12px;
+		}
+		.index-list .l-item .ctx {
+		    height: 57px;
+		    color: #666;
+		    font-size: 14px;
+		    padding-bottom: 34px;
+		    overflow: hidden;
+		}
+		.index-list .l-item .more {
+		    display: block;
+		    width: 100px;
+		    height: 26px;
+		    line-height: 26px;
+		    border: 1px solid #c9c9c9;
+		    border-radius: 26px;
+		    color: #999;
+		    text-align: center;
+		}
+
+
+		#footer {
+		    background: #ededed;
+		    overflow: hidden;
+		    color: #7d7d7d;
+		    width: 100%;
+		    margin-top: 20px;
+		}
+		.footer-box {
+		    max-width: 1100px;
+		    margin: 0 auto 0;
+		    height: 97px;
+		    line-height: 97px;
+		}
+		#footer .links {
+		    float: left;
+		    margin-left: 40px;
+		}
+		#footer .links li {
+		    float: left;
+		    line-height: 97px;
+		    color: #7d7d7d;
+		}
+		#footer .links li a {
+		    color: #7d7d7d;
+		}
+		#footer .links li.d {
+		    padding: 0 10px;
+		}
+	</style>
+
+	<body>
+		<!-- head -->
+		<div class="index-head">
+			<div class="g-wrap">
+				<a class="head-logo" href="">
+					<!-- <img src="../img/logo.png"> -->
+				</a>		
+				<ul>
+					<li class="z-active"><a href="../html/index.html">主页</a></li>
+					<li><a  href="../html/list.html">作品展示</a></li>
+					<li><a  href="../html/about.html">关于聚睿</a></li>
+					<li><a  href="../html/contact.html">合作联系</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="g-wrap">
+
+			<!-- banner -->
+			<div class="index-banner">
+				<img src="../img/banner.jpg">
+			</div>
+			<div class="index-list f-cb">
+				<div class="l-item">
+					<dl class="box">
+						<dt>
+							<a><img src="../img/index-book.jpg"></a>
+						</dt>
+						<dd><a class="title" >《你的距离》是聚睿文化联手bilibili漫画根据长佩文学同名小说改编漫画，自上线Bilibili漫画平台以来，受到原著粉丝以及漫画粉丝的一致好评。漫画网站评分高达9.8，超过同站97%的同类漫画，长期占据热门排行榜单前列。</a></dd>
+					
+					</dl>
+				</div>
+							<div class="l-item">
+					<dl class="box">
+						<dt>
+							<a><img src="../img/app-img01.jpg"></a>
+						</dt>
+						<dd><a class="title">《传说中的恶役公主》是聚睿文化原创西方幻想漫画，自上限腾讯动漫平台后凭借优质故事内容与精美的画面迅速俘虏一众粉丝，仅上线9话便冲上热门排行榜但第一，长期位于大女主漫画、女生漫画类型排行榜单前三位置。<span class="tag-new"></span></a></dd>
+						
+					</dl>
+				</div>
+							<div class="l-item" style="margin-right: 0px;">
+					<dl class="box">
+						<dt>
+							<a><img src="../img/app-img02.jpg"></a>
+						</dt>
+						<dd><a class="title">《纯情陆少》是聚睿文化为北京博易创为公司所承制的都市恋爱漫画，该漫画目前单渠道人气超过20亿，网站评分高达9.1分。长期位于女频畅销榜单前列，粉丝粘性高，付费意愿强烈。<span class="tag-new"></span></a></dd>
+					</dl>
+				</div>
+
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer-box">
+				<ul class="links">
+					<li><a href="../html/index.html">首页</a></li>
+					<li class="d">|</li>
+					<li><a href="../html/list.html">作品展示</a></li>
+					<li class="d">|</li> 
+					<li><a  href="../html/about.html">关于聚睿</a></li>
+					<li class="d">|</li>
+					<li><a href="../html/contact.html">合作联系</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+</html>
